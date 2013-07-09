@@ -13,6 +13,7 @@ num_cake_pieces = gets.chomp.to_i
 
 print "How many people want some cake? "
 # Get the number. Conver it to an integer.
-
+num_people = gets.chomp.to_i
 
 # Print the solution
+puts "Give each person #{num_cake_pieces/num_people} pieces. There will be #{num_cake_pieces % num_people} additional pieces for you to eat as soon as they leave."
