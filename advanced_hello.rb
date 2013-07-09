@@ -16,7 +16,14 @@ print "What is your name? "
 name = gets.chomp
 
 # Get their home town
+print "What is your home town? "
+town = gets.chomp
 
 # Get thier country
+print "What country is that in"
+country = gets.chomp
 
 # Say hello
+puts "Hello #{name.capitalize}! You are from #{town.capitalize}, #{country.upcase}."
+
+# Note that you don't need name.downcase.capitalize, as capitalize does this anyway!
