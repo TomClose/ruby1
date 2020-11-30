@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ProcessPilot (2.0.0.20120301)
+      rUtilAnts (>= 1.0)
+    minitest (5.14.2)
+    rUtilAnts (2.0.0.20130827)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ProcessPilot
+  minitest
+
+BUNDLED WITH
+   2.1.4

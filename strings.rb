@@ -1,5 +1,4 @@
-
-a = "Hello"
+a = 'Hello'
 
 a.reverse
 
@@ -9,19 +8,18 @@ a.reverse.upcase
 
 a.downcase
 
-b = "dave"
+b = 'dave'
 
 b.capitalize
 
 a + b
 
-a + " " + b
+a + ' ' + b
 
 b.capitalize!
 
-a + " " + b
+a + ' ' + b
 
 a * 3
 
 3 * a
-

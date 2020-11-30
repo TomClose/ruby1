@@ -6,13 +6,11 @@
 
 # (You don't need to worry about bad input. Just assume that your user will be nice!)
 
-
-print "How many pieces does you cake have? "
+print 'How many pieces does you cake have? '
 # Get the number. to_i converts a string into an integer.
 num_cake_pieces = gets.chomp.to_i
 
-print "How many people want some cake? "
+print 'How many people want some cake? '
 # Get the number. Conver it to an integer.
-
 
 # Print the solution
